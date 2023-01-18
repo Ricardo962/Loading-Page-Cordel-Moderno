@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@font-face{
+    font-family:"Passio-one";
+      src: url(fontes/PassionOne-Bold.ttf);  
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+}
+header{
+    background-color:black;
+    text-align: center;
+    color: white;
+}
+header > h1{
+    font-variant: small-caps;
+    font-size: 10vw;
+    padding-top: 50px;
+    font-family: Passio-one;
+}
+header a:hover{
+    text-decoration: underline;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 200;
+    padding-bottom: 50px;
+}
+section{
+    font-size: 3.5vw;
+    font-family: cursive;
+    line-height: 1em;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    padding-top: 5vh;
+}
+.terceira-section p{
+    margin-bottom: 5vh;
+}
+section#img01{
+    background-image: url(imagens/girasol.jpg);
+    background-position: center center;
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.677);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.704);
+    padding-left: 10px;
+    padding-bottom: 35px;
+}
+section#img02{
+    background-image: url(imagens/livro.png);
+}
+section.quarta-section p{
+    margin-bottom: 5vh;
+}
+footer.rodape{
+    background-color: black;
+    text-align: center; 
+}
+footer.rodape p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 5px;
+    padding: 5px 0;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;   
+}
+.rodape a:hover{
+    text-decoration: underline;
+}
+
